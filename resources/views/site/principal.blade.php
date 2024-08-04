@@ -1,13 +1,13 @@
-<h2>Principal (view)<h2>
+<h3>Principal (view)<h3>
 
   <ul>
     <li>
-      <a href="/">Principal</a>
+      <a href="{{ route ('site.index') }}">Principal</a>
     </li>
     <li>
-      <a href="/sobre">Sobre</a>
+      <a href="{{ route ('site.sobre') }}">Sobre</a>
     </li>
     <li>
-      <a href="/contato">Contato</a>
+      <a href="{{ route ('site.contato') }}">Contato</a>
     </li>
   </ul>
